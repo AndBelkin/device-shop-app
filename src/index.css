@@ -130,6 +130,12 @@ button {
 }
 /* Basic styles for containers */
 
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
 .container {
   max-width: var(--basic-width-content);
   width: 100%;
