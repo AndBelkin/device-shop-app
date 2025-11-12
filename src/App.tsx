@@ -1,11 +1,12 @@
 import type { FC } from "react";
 import { BrowserRouter } from "react-router-dom";
 import MainRouter from "./routes/MainRouter";
+import Header from "./layouts/header/Header";
 
 const App: FC = () => {
   return (
     <BrowserRouter>
-      <header>Header</header>
+      <Header />
       <MainRouter />
       <footer>Footer</footer>
     </BrowserRouter>
